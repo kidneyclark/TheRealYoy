@@ -1,12 +1,16 @@
-[gd_resource type="Resource" script_class="MapGenerationData" load_steps=4 format=3 uid="uid://ypooormc22i"]
+[gd_resource type="Resource" script_class="MapGenerationData" load_steps=6 format=3 uid="uid://ypooormc22i"]
 
 [ext_resource type="Script" path="res://Scripts/MapGenerationData.cs" id="1_mq6od"]
 [ext_resource type="PackedScene" uid="uid://c3i2frks6sflh" path="res://Prefabs/GroundTile.tscn" id="1_uqyak"]
 [ext_resource type="PackedScene" uid="uid://cp3saux725n75" path="res://Prefabs/WaterTile.tscn" id="2_tvhte"]
+[ext_resource type="PackedScene" uid="uid://c7fvjsrbk3q6x" path="res://Prefabs/SnowTile.tscn" id="3_3soqd"]
+[ext_resource type="PackedScene" uid="uid://cjabryuyapmpy" path="res://Prefabs/SandTile.tscn" id="3_ectak"]
 
 [resource]
 script = ExtResource("1_mq6od")
-GridSize = Vector2i(64, 64)
-NoiseScale = 0.05
+GridSize = Vector2i(100, 100)
+NoiseScale = 0.03
 GroundTilePrefab = ExtResource("1_uqyak")
 WaterTilePrefab = ExtResource("2_tvhte")
+SandTilePrefab = ExtResource("3_ectak")
+SnowTilePrefab = ExtResource("3_3soqd")

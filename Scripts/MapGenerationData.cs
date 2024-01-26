@@ -9,4 +9,6 @@ public partial class MapGenerationData : Resource
 	[Export] public float NoiseScale = 0.01f;
 	[Export] public PackedScene GroundTilePrefab;
 	[Export] public PackedScene WaterTilePrefab;
+	[Export] public PackedScene SandTilePrefab;
+	[Export] public PackedScene SnowTilePrefab;
 }
